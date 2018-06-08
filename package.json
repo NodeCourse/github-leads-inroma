@@ -1,0 +1,26 @@
+{
+  "name": "github-leads-inroma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NodeCourse/github-leads-inroma.git"
+  },
+  "author": "Romain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NodeCourse/github-leads-inroma/issues"
+  },
+  "homepage": "https://github.com/NodeCourse/github-leads-inroma#readme",
+  "dependencies": {
+    "@octokit/rest": "^15.8.1",
+    "commander": "^2.15.1",
+    "csv-stringify": "^3.0.0",
+    "flatten-array": "^1.0.0",
+    "icg-json-to-xlsx": "^0.2.5"
+  }
+}
